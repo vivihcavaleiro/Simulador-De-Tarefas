@@ -1,6 +1,74 @@
 O projeto a seguir é um simulador de tarefas, na qual representa tarefas diarias do contidiano. 
+Simulador de Tarefas
+ O software pode inserir várias tarefas com seus respectivos tempos de execução, e o programa irá calcular o tempo total necessário para concluir todas as tarefas.
+ Funcionalidades:
+- Entrada do número de tarefas.
+- Entrada do nome e tempo de execução de cada tarefa.
+- Exibição do tempo total de execução ao final.
+- Simulação do processo de execução das tarefas.
+Como Usar:
+1. Compile o código usando um compilador C:
+   ```bash
+   gcc simulador_tarefas.c -o simulador_tarefas
+Explicação do código:
+Definição da Estrutura Tarefa:
 
-Funcionabilidade: Executar as tarefas do dia a dia, S
+A estrutura Tarefa contém dois membros:
+nome (uma string que armazena o nome da tarefa).
+tempo_execucao (um inteiro que armazena o tempo de execução da tarefa em segundos).
+
+Função executarTarefas:
+Esta função recebe um vetor de tarefas e o número de tarefas.
+Para cada tarefa, a função imprime o nome da tarefa e o tempo de execução, atualizando o tempo total acumulado.
+
+Função main:
+Solicita ao usuário o número de tarefas e valida a entrada.
+Para cada tarefa, solicita o nome e o tempo de execução.
+As informações são armazenadas na estrutura Tarefa.
+Após coletar todos os dados, a função executarTarefas é chamada para simular a execução das tarefas.
+
+Entrada e saída:
+O programa solicita ao usuário o número de tarefas, o nome de cada tarefa e o tempo de execução.
+Depois, simula a execução das tarefas e imprime o tempo total de execução.
+
+Como Funciona:
+Entrada:
+O programa começa perguntando quantas tarefas o usuário deseja simular.
+Para cada tarefa, o usuário insere o nome e o tempo de execução.
+
+Execução:
+O programa simula a execução de cada tarefa, mostrando o nome da tarefa e o tempo que ela levaria para ser executada.
+Depois de cada tarefa, ele soma o tempo total de execução.
+
+Resultado Final:
+Ao final, o programa exibe o tempo total necessário para concluir todas as tarefas.
+
+Exemplo de Execução:
+Digite o número de tarefas: 3
+Digite o nome da tarefa 1: Tarefa A
+Digite o tempo de execução da tarefa 1 (em segundos): 5
+Digite o nome da tarefa 2: Tarefa B
+Digite o tempo de execução da tarefa 2 (em segundos): 3
+Digite o nome da tarefa 3: Tarefa C
+Digite o tempo de execução da tarefa 3 (em segundos): 8
+
+Executando a tarefa: Tarefa A
+
+Tempo de execução: 5 segundos
+Tempo total acumulado: 5 segundos
+
+Executando a tarefa: Tarefa B
+
+Tempo de execução: 3 segundos
+Tempo total acumulado: 8 segundos
+
+Executando a tarefa: Tarefa C
+
+Tempo de execução: 8 segundos
+Tempo total acumulado: 16 segundos
+
+Todas as tarefas foram concluídas!
+Tempo total de execução: 16 segundos
 
 
 
