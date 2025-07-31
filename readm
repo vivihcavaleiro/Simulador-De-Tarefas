@@ -1,5 +1,7 @@
 O projeto a seguir é um simulador de tarefas, na qual representa tarefas diarias do contidiano. 
+
 Simulador de Tarefas
+
  O software pode inserir várias tarefas com seus respectivos tempos de execução, e o programa irá calcular o tempo total necessário para concluir todas as tarefas.
  Funcionalidades:
 - Entrada do número de tarefas.
