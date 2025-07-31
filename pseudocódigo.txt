@@ -1,1 +1,11 @@
+Pseudocódigo:
+O programa recebe um número de tarefas.
+Cada tarefa tem um nome e um tempo de execução.
+O programa simula a execução das tarefas, executando uma tarefa de cada vez, de acordo com a ordem em que foram recebidas.
+Após a execução de cada tarefa, exibe o tempo restante e o tempo total de execução.
 
+Passos:
+Inicialize as variáveis de entrada (número de tarefas, nome da tarefa, tempo de execução).
+Crie uma estrutura que armazene as informações de cada tarefa.
+Use um loop para simular a execução das tarefas.
+Exiba os resultados após a execução de todas as tarefas.
