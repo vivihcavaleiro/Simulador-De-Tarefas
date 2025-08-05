@@ -2,9 +2,6 @@ Nome: Kemillyn N:22
 O projeto a seguir é um simulador de tarefas, na qual representa tarefas diarias do contidiano. 
 
 Simulador de Tarefas
-
- O software pode inserir várias tarefas com seus respectivos tempos de execução, e o programa irá calcular o tempo total necessário para concluir todas as tarefas.
- Funcionalidades:
 - Entrada do número de tarefas.
 - Entrada do nome e tempo de execução de cada tarefa.
 - Exibição do tempo total de execução ao final.
@@ -72,6 +69,10 @@ Tempo total acumulado: 16 segundos
 
 Todas as tarefas foram concluídas!
 Tempo total de execução: 16 segundos
+
+Fiz sozinha, então não ficou muito bom, eu procurei videos pelo Youtube, google para me ajudar.
+Fiz um simulador de tarefas que além de executar, ele mostra o tempo em que levará para ser executado.
+
 
 
 
